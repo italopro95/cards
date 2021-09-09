@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 50px 5%;
+
+}
+
+.cabecalho h1 {
+    font-size: 2.5em;
+    color: #13c7ae;
+}
+
+.cabecalho h2 {
+    font-size: 1.5em;
+    color: #c0df34;
+    margin-top: 25px;
+}
+
+.cabecalho p {
+    margin-top: 0.8em;
+}
+
+.para {
+    color: #98a6bd;
+    margin-top: 1.5em;
+    line-height: 1.5em;
+}
+
+
+.card {
+    width: 100%;
+    height: 40vh;
+}
+
+.content {
+    padding: 0 5%;
+    float: left;
+    background-color: #13c7ae;
+    height: 100%;
+}
+
+.content1 {
+    padding: 0 5%;
+    float: left;
+    background-color: #13c7afbe;
+    height: 100%;
+    color: #778191;
+    line-height: 3.5vh;
+}
+
+.card h1 {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 3vh 0;
+}
+.content p {
+   color: #ffffff;
+   margin-top: 2vh;
+}
+.content strong {
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.content i {
+    color: #667081;
+}
+
+.content button {
+    background-color: #c0df34;
+    color: #ffffff;
+    margin-top: 5vh;
+    padding: 12px 5.5vw;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .cabecalho {
+        margin: auto;
+        width: 90%;
+
+    }
+
+    .para {
+        line-height: 2em;
+    }
+    .content, .content1 {
+       position: relative;
+       width: 100%;
+       margin: auto;
+    }
+
+    .content button {
+       position: absolute;
+       left: 50%; 
+       transform: translateX(-50%);
+       width: 90%;
+
+    }
+
+
+
+}
